@@ -12,87 +12,95 @@
     <link rel="icon" href="Ur.ico">
     <title>Login</title>
 
-    <header class="text-gray-600 body-font animate__animated animate__backInDown">
-        <div class="bg-white container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <img src="Ur.ico" alt="">
-              <span class="ml-3 text-xl">Urban Real Estate</span>
-            </a>
-          </div>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900 hover:bg-gray-200 rounded" href="index.html">Home</a>
-            <a class="mr-5 hover:text-gray-900 hover:bg-gray-200 rounded" href="buy_a_home.html">Buy A Home</a>
-            <a class="mr-5 hover:text-gray-900 hover:bg-gray-200 rounded" href="sell_a_home.html">Sell A Home</a>
-            <a class="mr-5 hover:text-gray-900 hover:bg-gray-200 rounded" href="rent_a_house.html">Rent A House</a>
-          </nav>
-          
-          <a href="login.html">
-            <button class="inline-flex flex-wrap items-center bg-gray-100 border-0 py-1 px-8 focus:outline-none hover:bg-gray-200 rounded text-base mt-10 md:mt-0">Login 
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </button>
-          </a>
-      </header>
-</head>
+    <!--header start-->
+  <header class="text-gray-600 body-font animate__animated animate__backInDown">
+    <div class="bg-gray-900 container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img src="Ur.ico" alt="">
+          <span class="ml-3 text-xl text-white">Urban Real Estate</span>
+        </a>
+      </div>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 text-white rounded" href="index.html">Home</a>
+        <a class="mr-5 text-white rounded" href="buy_a_home.html">Buy A Home</a>
+        <a class="mr-5 text-white rounded" href="sell_a_home.html">Sell A Home</a>
+        <a class="mr-5 text-white rounded" href="rent_a_house.html">Rent A House</a>
+      </nav>
+      
+      <a href="login.html">
+      <button class="inline-flex flex-wrap items-center bg-gray-100 border-0 py-1 px-8 focus:outline-none hover:bg-gray-200 rounded text-base mt-10 md:mt-0">Login 
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </a>
+  </header>
+<!--header end-->
 
 <body>
-    
-<div class="animate__animated animate__backInDown min-h-screen bg-no-repeat bg-cover bg-center bg-fixed" 
-style="background-image: url(n.jpg)">
-<div class="flex justify-end">
-    <div class="bg-white min-h-screen w-1/2 flex justify-center items-center">
+  <div style="background-image: url(wallpaperflare.com_wallpaper\ \(5\).jpg);">
+  <div class="w-full max-w-sm p-6 m-auto bg-gray-900 rounded-md shadow-md dark:bg-gray-800">
+    <h1 class="text-3xl font-semibold text-center text-white dark:text-white">Welcome Back</h1>
+
+    <form class="mt-10">
         <div>
-
-            <form>
-                <div>
-                    <span class="text-sm text-gray-900">Welcome back</span>
-                    <h1 class="text-2xl font-bold">Login to your account</h1>
-                </div>
-                
-                    <div class="my-3">
-                        <label class="block text-md mb-2" for="email">Email</label>
-                        <input class="px-4 w-full border-2 py-2 rounded-md text-sm outline-none" type="email" name="password" placeholder="email">
-    </div>
-
-    <div class="mt-5">
-      <label class="block text-md mb-2" for="password">Password</label>
-      <input class="px-4 w-full border-2 py-2 rounded-md text-sm outline-none" type="password" name="password" placeholder="password">
-</div>
-
-                        <div class="flex justify-between">
-                            <div>
-                                <input class="cursor-pointer"  type="radio" name="rememberme">
-                                <span class="text-sm">Remember Me</span>
-                            </div>
-                            <span class="text-sm text-blue-700 hover:underline cursor-pointer">Forgot password?</span>
-                        </div>
-                        <div class="">
-                            <button class="mt-4 mb-3 w-full bg-green-500 hover:bg-green-400 text-white py-2 rounded-md transition duration-100">Login now</button>
-                            <div class="flex  space-x-2 justify-center items-end bg-gray-700 hover:bg-gray-600 text-white py-2 rounded-md transition duration-100"">
-
-        <img class=" h-5 cursor-pointer" src="https://i.imgur.com/arC60SB.png" alt="">
-                                <button >Or sign-in with google</button>
-                            </div>
-                        </div>
-            </form>
-            <p class="mt-8"> Dont have an account? <span class="cursor-pointer text-sm text-blue-600"> Join free today</span></p>
+            <label for="username" class="block text-sm text-white dark:text-gray-200">Username</label>
+            <input type="text"
+                class="block w-full px-4 py-2 mt-2 text-white bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
         </div>
-    </div>
-</div>
-</div>
-</div>
 
-<!--footer start-->  
-    <div class="bg-gray-400">
-      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row text-center">
-        <p class="text-white text-base text-center text-base:text-center">Copyright © 2021 Urban Real Estate — All rights reserved.
-        </p>
-      </div>
+        <div class="mt-4">
+            <div class="flex items-center justify-between">
+                <label for="password" class="block text-sm text-white dark:text-gray-200">Password</label>
+                <a href="#" class="text-xs text-white dark:text-gray-400 hover:underline">Forget Password?</a>
+            </div>
+
+            <input type="password"
+                class="block w-full px-4 py-2 mt-2 text-white bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+        </div>
+
+        <div class="mt-6">
+            <button
+                class="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
+                Login
+            </button>
+        </div>
+    </form>
+
+    <div class="flex items-center justify-between mt-4">
+        <span class="w-1/5 border-b dark:border-gray-600 lg:w-1/5"></span>
+
+        <a href="#" class="text-xs text-center text-white uppercase dark:text-gray-400 hover:underline">or login with Social Media</a>
+
+        <span class="w-1/5 border-b dark:border-gray-400 lg:w-1/5"></span>
     </div>
-  </footer>
+
+    <div class="flex items-center mt-6 -mx-2">
+        <button type="button"
+            class="flex items-center justify-center w-full px-6 py-2 mx-2 text-sm font-medium text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:bg-blue-400 focus:outline-none">
+            <svg class="w-4 h-4 mx-2 fill-current" viewBox="0 0 24 24">
+                <path
+                    d="M12.24 10.285V14.4h6.806c-.275 1.765-2.056 5.174-6.806 5.174-4.095 0-7.439-3.389-7.439-7.574s3.345-7.574 7.439-7.574c2.33 0 3.891.989 4.785 1.849l3.254-3.138C18.189 1.186 15.479 0 12.24 0c-6.635 0-12 5.365-12 12s5.365 12 12 12c6.926 0 11.52-4.869 11.52-11.726 0-.788-.085-1.39-.189-1.989H12.24z">
+                </path>
+            </svg>
+
+            <span class="hidden mx-2 sm:inline">Sign in with Google</span>
+        </button>
+
+        
+    </div>
+
+    <p class="mt-8 text-xs font-light text-center text-white"> Don't have an account? <a href="#"
+            class="font-medium text-white dark:text-gray-200 hover:underline">Create One</a></p>
+</div>
+<!--footer start-->  
+<div class="bg-gray-900">
+  <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row text-center">
+    <p class="text-white text-base text-center text-base:text-center">Copyright © 2021 Urban Real Estate — All rights reserved.
+    </p>
   </div>
+</div>
   <!--footer end-->
 </body>
 </html>
