@@ -8,8 +8,9 @@ Freelance Real Estate Website Project!
 
     
 ## Live Demo 
+![Screenshot (400)](https://user-images.githubusercontent.com/86042513/136531928-c20a1533-6ee3-45e2-81b6-0226faffdcc2.png)
 
-![Screenshot (395)](https://user-images.githubusercontent.com/86042513/135986867-5467e02e-c8f1-4e4b-9509-354b8e3fdb33.png)
+
   
 Link : https://aungzawpaingoo.github.io/Urban-R.E-Website/
 
