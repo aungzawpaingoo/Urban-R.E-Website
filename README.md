@@ -4,8 +4,6 @@
 Freelance Real Estate Website Project!
 
 
-![Logo](https://lh3.googleusercontent.com/dD-QhsPUnl8GHFTXLqZ1rvrcYcaXV_MseaAEkkyxrDW0cHr5FrcZMUeqU-v8H_HWrDE2POw=s48)
-
     
 ## Live Demo 
 ![Screenshot (403)](https://user-images.githubusercontent.com/86042513/136650479-620edacc-1837-48d2-b389-61428ed9ba03.png)
