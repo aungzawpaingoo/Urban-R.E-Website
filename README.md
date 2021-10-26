@@ -19,10 +19,8 @@ Link : https://aungzawpaingoo.github.io/Urban-R.E-Website/
 
 - Property Listing
 - Buy , Sell Or Rent Property
-- Property Finding
 - Contact Info 
-- Application Support
-- Cross platform
+- Responsive 
 
   
 ## Tech Stack
