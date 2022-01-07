@@ -13,7 +13,10 @@
     <title>Login</title>
 
     <!--header start-->
-  <header class="text-gray-600 bg-gray-900 body-font animate__animated animate__backInDown">
+    <div class="relative bg-fixed bg-center bg-cover bg-no-repeat"
+    style="background-image:linear-gradient(rgba(39, 41, 41, 0.521), rgba(45, 48, 48, 0.521)), url(Rent_H.jpg)">
+
+  <header class="text-gray-600 bg-transparent body-font animate__animated animate__backInDown">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a href="index.html" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -22,13 +25,13 @@
         </a>
       </div>
       <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a class="mr-5 text-white rounded" href="buy_a_home.html">Buy A Home</a>
-        <a class="mr-5 text-white rounded" href="rent_a_house.html">Rent A House</a>
-        <a class="mr-5 text-white rounded" href="contact.html">Contact</a>
+        <a class="mr-5 text-gray-900 bg-gray-100 py-1 px-2 rounded" href="buy_a_home.html">Buy A Home</a>
+        <a class="mr-5 text-gray-900 bg-gray-100 py-1 px-2 rounded" href="rent_a_house.html">Rent A House</a>
+        <a class="mr-5 text-gray-900 bg-gray-100 py-1 px-2 rounded" href="contact.html">Contact</a>
       </nav>
       
       <a href="login.html">
-      <button class="inline-flex flex-wrap items-center bg-gray-100 border-0 py-1 px-8 focus:outline-none hover:bg-gray-200 rounded text-base mt-10 md:mt-0">Login 
+      <button class="inline-flex flex-wrap items-center bg-gray-100 border-0 py-1 px-2 focus:outline-none hover:bg-gray-200 rounded text-base mt-10 md:mt-0">Login 
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>
@@ -38,23 +41,22 @@
 <!--header end-->
 
 <body>
-  <div class="relative bg-fixed bg-center bg-cover bg-no-repeat"
- style="background-image:linear-gradient(rgba(82, 88, 88, 0.521), rgba(82, 88, 88, 0.521)), url(sd.jpg)">
+  
 
   <div class="w-full max-w-sm p-6 pt-20 m-auto rounded-md shadow-md dark:bg-gray-800">
-    <h1 class="text-3xl font-semibold text-center text-white dark:text-white">Welcome Back</h1>
+    <h1 class="text-3xl font-semibold text-center text-gray-100 dark:text-white">Welcome Back</h1>
 
     <form class="mt-10">
         <div>
-            <label for="username" class="block text-sm text-white dark:text-gray-200">Username</label>
+            <label for="username" class="block text-sm text-gray-100 dark:text-gray-200">Username</label>
             <input type="text"
                 class="block w-full px-4 py-2 mt-2 text-white bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
         </div>
 
         <div class="mt-4">
             <div class="flex items-center justify-between">
-                <label for="password" class="block text-sm text-white dark:text-gray-200">Password</label>
-                <a href="#" class="text-xs text-white dark:text-gray-400 hover:underline">Forget Password?</a>
+                <label for="password" class="block text-sm text-gray-100 dark:text-gray-200">Password</label>
+                <a href="#" class="text-xs text-gray-100 dark:text-gray-400 hover:underline">Forget Password?</a>
             </div>
 
             <input type="password"
@@ -72,7 +74,7 @@
     <div class="flex items-center justify-between mt-4">
         <span class="w-1/5 border-b dark:border-gray-600 lg:w-1/5"></span>
 
-        <a href="#" class="text-xs text-center text-white uppercase dark:text-gray-400 hover:underline">or login with Social Media</a>
+        <a href="#" class="text-xs text-center text-gray-100 uppercase dark:text-gray-400 hover:underline">or login with Social Media</a>
 
         <span class="w-1/5 border-b dark:border-gray-400 lg:w-1/5"></span>
     </div>
@@ -95,13 +97,13 @@
     <p class="mt-8 text-xs font-light text-center text-white"> Don't have an account? <a href="#"
             class="font-medium text-white dark:text-gray-200 hover:underline">Create One</a></p>
 </div>
-
+</div>
 
 
 
  <!--footer start-->
  
-   <footer class="text-white body-font">
+   <footer class="text-white body-font bg-gray-900">
      <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
@@ -216,8 +218,7 @@
        <p class="text-white text-base text-center text-base:text-center">Copyright © 2021 Urban Real Estate — All rights reserved.
        </p>
      </div>
-   </div>
- 
+   
 <!--footer end-->
 
 </body>
