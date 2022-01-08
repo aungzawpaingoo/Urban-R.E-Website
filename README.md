@@ -6,7 +6,7 @@ Freelance Real Estate Website Project!
 
     
 ## Live Demo 
-![Screenshot (460)](https://user-images.githubusercontent.com/86042513/138881656-36afcb55-9ebc-4ad7-b4ad-d80ddd173303.png)
+![Screenshot (566)](https://user-images.githubusercontent.com/86042513/148639487-fa482b14-f0ad-485f-bf46-b4d6bb533c99.png)
 
 
 
