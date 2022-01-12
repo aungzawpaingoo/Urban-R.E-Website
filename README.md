@@ -15,19 +15,13 @@ Freelance Real Estate Website Project!
 Link : https://aungzawpaingoo.github.io/Urban-R.E-Website/
 
   
-## Features
+## Project Info & Features
+Urban Real Estate a startup residential company website. On top of building features for the website using HTML, Tailwinds CSS, Javascript & Figma , I created the entire Home, Buy A Home, Rent A Home, Contact & Login pages of the company website. From wireframes and high-fidelity mockups on Figma to development, using HTML, Tailwinds CSS & Javascript.
 
 - Property Listing
 - Buy , Sell Or Rent Property
 - Contact Info 
-- Responsive 
-
-  
-## Tech Stack
-
-**Client:** HTML , TailwindCSS
-
-**Server:** 
+- Responsive Design 
 
   
 ## Used By
@@ -35,11 +29,6 @@ Link : https://aungzawpaingoo.github.io/Urban-R.E-Website/
 This project is used by the following Company:
 
 - Urban Real Estate 
-
-  
-## Support
-
-For support, email aungzawpaingoonetwork@gmail.com !
 
   
 ## License
